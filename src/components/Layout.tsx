@@ -11,7 +11,7 @@ const Layout = ({ children }) => {
   return (
     <>
       <header className="py-6 md:py-12">
-        <div className="max-w-6xl mx-auto px-6">
+        <div className="primaryBackground max-w-6xl mx-auto px-6">
           <div className="flex items-center justify-between">
             <div className="md:w-1/3">
               <nav className="flex items-center justify-start space-x-3 md:space-x-6">

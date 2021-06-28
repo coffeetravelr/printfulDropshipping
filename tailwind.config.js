@@ -9,6 +9,11 @@ module.exports = {
         sans: ["Inter", ...defaultTheme.fontFamily.sans],
       },
     },
+    colors: {
+      primaryBackground: '#5c6ac4',
+      secondary: '#ecc94b',
+      // ...
+    },  
   },
   variants: {
     extend: {
