@@ -17,7 +17,7 @@ const Layout = ({ children }) => {
         <div className="max-w-6xl mx-auto px-6">
           <div className="flex flex-row flex-wrap sm:flex-nowrap items-center justify-between">
             <div className="md:w-1/3">
-              <nav className="flex items-center justify-start space-x-3 md:space-x-6">
+              <nav className="flex items-center justify-start space-x-1 sm:space-x-3 md:space-x-6">
                 <Link href="/about">
                   <a className="text-gray-800 hover:text-coffee p-1 transition">
                     About
@@ -39,7 +39,7 @@ const Layout = ({ children }) => {
               </Link>
             </div>
 
-            <div className="md:w-1/3 flex items-center justify-end space-x-3 -mr-2.5">
+            <div className="md:w-1/3 flex items-center justify-end space-x-0 sm:space-x-3 mr-2.5">
              
             <Link href="https://www.instagram.com/coffeetravelr/">
               <button
