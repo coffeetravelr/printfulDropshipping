@@ -18,7 +18,7 @@
 }
 
 .snipcart__font--subtitle {
-  @apply bg-coffee font-semibold text-lg md:text-xl;
+  @apply bg-coffee text-white p-1 font-semibold text-lg md:text-xl rounded;
 }
 
 .snipcart-cart-button--highlight {
@@ -123,7 +123,7 @@
 
 /* Animated Logo */
 #logoWrap {
-  padding: 5% 0 0 0;
+  padding: 0;
   margin: 0;
   color: #170b0b;
   overflow: hidden;

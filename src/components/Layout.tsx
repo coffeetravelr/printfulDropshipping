@@ -43,8 +43,8 @@ const Layout = ({ children }) => {
              
             <Link href="https://www.instagram.com/coffeetravelr/">
               <button
-                className="snipcart-customer-signin appearance-none px-2 text-gray-800 hover:text-coffee rounded-md cursor-pointer focus:outline-none focus:text-coffee transition relative"
-                aria-label="User login"
+                className="snipcart-customer-signin appearance-none px-1.5 sm:px-2 text-gray-800 hover:text-coffee rounded-md cursor-pointer focus:outline-none focus:text-coffee transition relative"
+                aria-label="Instagram"
               >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -58,7 +58,7 @@ const Layout = ({ children }) => {
 
               <Link href="/wishlist">
                 <a
-                  className="px-2 text-gray-800 hover:text-coffee rounded-md cursor-pointer focus:outline-none focus:text-coffee relative transition"
+                  className="px-1.5 sm:px-2 text-gray-800 hover:text-coffee rounded-md cursor-pointer focus:outline-none focus:text-coffee relative transition"
                   aria-label="Wishlist"
                 >
                   {hasItems && (
@@ -75,7 +75,7 @@ const Layout = ({ children }) => {
                 </a>
               </Link>
               <button
-                className="snipcart-checkout appearance-none px-2 text-gray-800 hover:text-coffee rounded-md cursor-pointer focus:outline-none focus:text-coffee transition relative"
+                className="snipcart-checkout appearance-none px-1.5 sm:px-2 text-gray-800 hover:text-coffee rounded-md cursor-pointer focus:outline-none focus:text-coffee transition relative"
                 aria-label="Cart"
               >
                 {cartHasItems && (
