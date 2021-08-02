@@ -14,7 +14,7 @@ const Layout = ({ children }) => {
   return (
     <>
       <header className="py-6 md:py-12">
-        <div className="max-w-6xl mx-auto px-6">
+        <div className="max-w-6xl mx-auto px-2 sm:px-6">
           <div className="flex flex-row flex-wrap sm:flex-nowrap items-center justify-between">
             <div className="md:w-1/3">
               <nav className="flex items-center justify-start space-x-1 sm:space-x-3 md:space-x-6">
@@ -43,7 +43,7 @@ const Layout = ({ children }) => {
              
             <Link href="https://www.instagram.com/coffeetravelr/">
               <button
-                className="snipcart-customer-signin appearance-none px-1 sm:px-2 text-gray-800 hover:text-coffee rounded-md cursor-pointer focus:outline-none focus:text-coffee transition relative"
+                className="snipcart-customer-signin appearance-none px-2 text-gray-800 hover:text-coffee rounded-md cursor-pointer focus:outline-none focus:text-coffee transition relative"
                 aria-label="Instagram"
               >
               <svg
@@ -58,7 +58,7 @@ const Layout = ({ children }) => {
 
               <Link href="/wishlist">
                 <a
-                  className="px-1 sm:px-2 text-gray-800 hover:text-coffee rounded-md cursor-pointer focus:outline-none focus:text-coffee relative transition"
+                  className="px-2 text-gray-800 hover:text-coffee rounded-md cursor-pointer focus:outline-none focus:text-coffee relative transition"
                   aria-label="Wishlist"
                 >
                   {hasItems && (
@@ -75,7 +75,7 @@ const Layout = ({ children }) => {
                 </a>
               </Link>
               <button
-                className="snipcart-checkout appearance-none px-1 sm:px-2 text-gray-800 hover:text-coffee rounded-md cursor-pointer focus:outline-none focus:text-coffee transition relative"
+                className="snipcart-checkout appearance-none px-2 text-gray-800 hover:text-coffee rounded-md cursor-pointer focus:outline-none focus:text-coffee transition relative"
                 aria-label="Cart"
               >
                 {cartHasItems && (
