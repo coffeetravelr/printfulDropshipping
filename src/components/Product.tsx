@@ -62,7 +62,7 @@ const Product = (product) => {
           </svg>
         )}
       </button>
-      <div className="flex items-center justify-center flex-1 sm:flex-shrink-0 w-full p-6 mt-4 sm:mt-0">
+      <div className="flex items-center justify-center flex-1 sm:flex-shrink-0 w-full p-6 mt-4">
         {activeVariantFile && (
           <Image
             src={activeVariantFile.preview_url}
