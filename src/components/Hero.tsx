@@ -22,4 +22,5 @@ const Hero: React.FC<HeroProps> = ({ product }) => (
   </div>
 );
 
+
 export default Hero;
